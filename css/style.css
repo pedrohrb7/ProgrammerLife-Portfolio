@@ -55,8 +55,18 @@ img::-moz-selection {
     font-size: 33px;
 }
 
-.img-head {
+.img-header {
+    /*background-image: url("../imgs/computer-header.jpg");*/
     max-height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+.text-header {
+    padding-top: 150px;
+    padding-bottom: 100px;
 }
 
 .text-footer {
