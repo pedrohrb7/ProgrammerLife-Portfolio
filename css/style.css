@@ -21,43 +21,48 @@ header.bg-header {
 
 header.bg-header .header-text {
     padding-top: 150px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 
 .header-icons {
-    padding: 10px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
     color: #fed136;
     /*color: #d83b56;*/
 }
 
-.section-page {
+section.section-page {
     padding: 100px 0;
     margin: auto;
 }
 
-.section-head {
+h2.section-page-title {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
 }
 
-.section-subhead {
+h3.section-page-subtitle {
     color: #000 !important;
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 75px;
     text-transform: none;
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-.icons-social {
-    padding: 5px;
-    margin: auto;
+section.section-social {
+    background-color: #96959418;
 }
 
-.icons-social a {
-    margin-right: 30px;
+#social .icons-social {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-bottom: 80px;*/
+    text-align: center;
 }
 
 .about-section {
