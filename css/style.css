@@ -4,6 +4,7 @@
 }
 
 header.bg-header {
+    margin-top: 71px;
     background-image: url(/imgs/computer-header.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
