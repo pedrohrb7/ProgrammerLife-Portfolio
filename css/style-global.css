@@ -30,12 +30,12 @@ h6 {
 }
 
 ::-moz-selection {
-    background: #fed136;
+    background: rgba(254, 211, 54, 0.6);
     text-shadow: none;
 }
 
 ::selection {
-    background: #d83b56;
+    background: rgba(254, 211, 54, 0.6);
     text-shadow: none;
 }
 
