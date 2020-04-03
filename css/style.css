@@ -3,6 +3,10 @@
     font-size: 30px;
 }
 
+#pl-brand:hover {
+    color: rgb(247, 214, 107);
+}
+
 header {
     color: rgba(252, 200, 13, 0.986);
 }
@@ -83,6 +87,35 @@ section.section-social {
     padding: 20px;
     margin: auto;
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+}
+
+/*
+*
+CSS para os botoes da pagina about
+*
+*/
+
+.graduation-title {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: bold;
+}
+
+.graduation-title:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(247, 214, 107);
+}
+
+.songs {
+
+}
+
+/* Fim do estilo dos botoes */
+footer {
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 .footer {

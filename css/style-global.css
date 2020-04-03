@@ -7,15 +7,15 @@ p {
 }
 
 a {
-    color: #fed136;
+    color: rgb(254, 209, 54);
 }
 
 a:hover {
-    color: #f7d66b !important;
+    color: rgb(247, 214, 107);
 }
 
 .text-primary {
-    color: #ffd53c !important;
+    color: rgb(255, 213, 60);
 }
 
 h1,
