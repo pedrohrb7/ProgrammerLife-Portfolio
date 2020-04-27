@@ -1,95 +1,106 @@
 .pl-brand {
-    font-family: 'Courgette', cursive;
-    font-size: 30px;
+	font-family: "Courgette", cursive;
+	font-size: 30px;
 }
 
 #pl-brand:hover {
-    color: rgb(247, 214, 107);
-}
-
-header {
-    color: rgba(252, 200, 13, 0.986);
+	color: rgb(247, 214, 107);
 }
 
 header.bg-header {
-    margin-top: 70px;
-    background-image: url(/imgs/computer-header-3.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
+	margin-top: 70px;
+	background-image: url(/imgs/computer-header-3.jpg);
+	height: 90vh;
+	max-height: 960px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
 }
 
 .header-text {
-    padding-bottom: 100px;
-    text-align: center;
-    text-transform: none;
-    font-weight: bold;
+	padding-bottom: 100px;
+	text-align: center;
+	text-transform: none;
+	font-weight: bold;
 }
 
 header.bg-header .header-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
+	padding-top: 150px;
+	padding-bottom: 100px;
 }
 
-.header-icons {
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 80px;
+.header--title {
+	margin-top: 60px;
 }
 
 section.section-page {
-    padding: 100px 0;
-    margin: auto;
+	padding: 100px 0;
+	margin: auto;
 }
 
 h2.section-page-title {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
+	font-size: 40px;
+	margin-top: 0;
+	margin-bottom: 15px;
 }
 
 #projects h3.section-page-subtitle {
-    color: #000;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
-    text-transform: none;
-    margin-bottom: 32px;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	text-transform: none;
+	margin-bottom: 32px;
+	font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 #projects h4.project-title {
-    color: #000;
-    font-size: 25px;
-    font-weight: 400;
-    font-style: italic;
-    text-transform: none;
-    margin: 15px 0;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-section.section-social {
-    background-color: rgba(150, 149, 148, 0.094);
+	color: #000;
+	font-size: 25px;
+	font-weight: 400;
+	font-style: italic;
+	text-transform: none;
+	margin: 15px 0;
+	font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 #social .icons-social {
-    margin: 35px auto;
-    text-align: center;
+	margin: 35px auto;
+	text-align: center;
 }
 
-.about-section {
-    margin-top: 80px;
+.section-about {
+	margin-top: 80px;
 }
 
 .text-about {
-    padding: 20px;
-    margin: auto;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+	padding: 20px;
+	margin: auto;
+	font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto;
 }
 
+.section-about_seemore {
+    margin-bottom: 20px;
+}
 
+/* used tecnologs section */
+
+section.section-tecs {
+	background-color: rgba(150, 149, 148, 0.094);
+}
+
+.tec-icons {
+	padding: 5px;
+    margin: 10px auto;
+    color: rgba(252, 200, 13, 0.986);
+}
+/* ******************** */
 /*
 *
 CSS para os botoes da pagina about
@@ -97,31 +108,58 @@ CSS para os botoes da pagina about
 */
 
 .seemore {
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: bold;
 }
 
 .seemore:hover {
-    text-decoration: none;
-    cursor: pointer;
-    color: rgb(247, 214, 107);
+	text-decoration: none;
+	cursor: pointer;
+	color: rgb(247, 214, 107);
+}
+/* CSS aplicado aos link do footer/modal */
+
+.webVersion {
+	padding: 15px;
 }
 
-
-/* Fim do estilo dos botoes */
-
-footer {
-    margin-top: 30px;
-    margin-bottom: 0;
+.angularVersion {
+	padding: 15px;
 }
+/*Fim do CSS aplicado aos link do footer/modal */
+/* CSS aplicado ao footer */
 
 .footer {
-    padding: 200px;
+	padding: 200px;
 }
 
 .text-footer {
-    color: #fff;
-    padding: 40px;
+	color: #fff;
+	padding: 40px;
+}
+
+@media (max-width: 768px) {
+	.tec-icons {
+		padding: 50px;
+		margin: 10px auto;
+	}
+	#social .icons-social {
+		margin: 15px auto;
+		padding: 0;
+	}
+}
+
+@media (max-width: 320px) {
+	.tec-icons {
+		padding: 40px;
+		margin: 10px auto;
+	}
+	#social .icons-social {
+		margin: 15px auto;
+		padding: 20px;
+	}
 }
